@@ -68,7 +68,7 @@
     <ul class="navbar-nav ml-auto">
     @auth
       <li class="nav-item">
-        <a href="{{ route('user.logout') }}"
+        <a href="{{ route('admin.logout') }}"
           onclick="event.preventDefault();
           document.getElementById('logout-form').submit();">
         <button type="button" class="btn btn-light btn-lg" style="cursor: pointer; margin-right: 30px" >{{ __('LOGOUT') }}</button>
